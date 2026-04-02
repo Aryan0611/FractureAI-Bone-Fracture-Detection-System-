@@ -1,0 +1,58 @@
+# -----------------------------
+# Model files (too large for GitHub)
+# -----------------------------
+models/saved/*.pt
+models/saved/*.pth
+
+# -----------------------------
+# Data
+# -----------------------------
+data/clean/
+data/*.csv
+MURA-v1.1/
+data/*
+!data/README.md   # Keep README for context
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+*.egg-info/
+*.egg
+*.whl
+
+# -----------------------------
+# Checkpoints
+# -----------------------------
+results/gemma/phase7_checkpoint.json
+phase1_checkpoint.pt
+*.ckpt
+*.pt
+*.pth
+
+# -----------------------------
+# Logs & Temp
+# -----------------------------
+*.log
+temp_upload.png
+
+# -----------------------------
+# Build / Distribution
+# -----------------------------
+build/
+dist/
+*.bak
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
