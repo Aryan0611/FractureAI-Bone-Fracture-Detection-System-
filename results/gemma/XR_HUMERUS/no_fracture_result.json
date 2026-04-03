@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_HUMERUS",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\1689_image1.png",
+    "true_label": 0,
+    "biomed_prob": 0.6504262089729309,
+    "biomed_pred": "Fracture",
+    "threshold": 0.37,
+    "qwen": {
+        "fracture_detected": true,
+        "confidence": 0.85,
+        "status": "confirmed",
+        "fracture_type": "transverse fracture",
+        "location": "mid-shaft humerus",
+        "severity": "moderate",
+        "attention_quality": "bone-focused",
+        "marker_bias_detected": false,
+        "clinical_findings": "The humerus shaft shows a transverse fracture with minimal displacement and intact cortical margins on the opposite side.",
+        "recommendation": "Orthopedic consultation for immobilization and repeat imaging to assess displacement.",
+        "treatment_plan": "Immobilization with a sling or brace; monitor for neurovascular compromise.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

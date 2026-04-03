@@ -1,0 +1,15 @@
+body_part,true_label,biomed_prob,gemma_detected,gemma_confidence,gemma_status,attention_quality,correct_biomed,correct_gemma
+XR_ELBOW,1,0.9742153882980347,True,0.97,confirmed,bone-focused,1,1.0
+XR_ELBOW,0,0.17087553441524506,False,0.85,normal,bone-focused,1,1.0
+XR_FINGER,1,0.06450528651475906,,0.0,error,unknown,0,
+XR_FINGER,0,0.8501588106155396,,0.0,error,unknown,0,
+XR_FOREARM,1,0.983551561832428,True,0.95,confirmed,bone-focused,1,1.0
+XR_FOREARM,0,0.16704878211021423,,0.0,error,unknown,1,
+XR_HAND,1,0.974138081073761,,0.0,error,unknown,1,
+XR_HAND,0,0.7508468627929688,True,0.85,confirmed,bone-focused,0,0.0
+XR_HUMERUS,1,0.972156822681427,True,0.97,confirmed,bone-focused,1,1.0
+XR_HUMERUS,0,0.8148118853569031,,0.0,error,unknown,0,
+XR_SHOULDER,1,0.950955331325531,,0.0,error,unknown,1,
+XR_SHOULDER,0,0.11448018997907639,,0.0,error,unknown,1,
+XR_WRIST,1,0.9395963549613953,,0.0,error,unknown,1,
+XR_WRIST,0,0.3402023911476135,,0.0,error,unknown,1,

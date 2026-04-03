@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_SHOULDER",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\1978_image1.png",
+    "true_label": 0,
+    "biomed_prob": 0.18234139680862427,
+    "biomed_pred": "No Fracture",
+    "threshold": 0.52,
+    "qwen": {
+        "fracture_detected": false,
+        "confidence": 0.95,
+        "status": "normal",
+        "fracture_type": null,
+        "location": null,
+        "severity": null,
+        "attention_quality": "bone-focused",
+        "marker_bias_detected": false,
+        "clinical_findings": "The humeral head, glenoid, and proximal humerus demonstrate continuous cortical margins with no visible discontinuity or abnormal lucency.",
+        "recommendation": "No fracture identified; clinical correlation advised if shoulder pain persists despite normal imaging.",
+        "treatment_plan": "Symptomatic management with activity modification and analgesics as needed.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

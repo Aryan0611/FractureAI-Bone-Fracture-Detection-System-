@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_ELBOW",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\9_image1.png",
+    "true_label": 0,
+    "biomed_prob": 0.21702590584754944,
+    "biomed_pred": "No Fracture",
+    "threshold": 0.4,
+    "qwen": {
+        "fracture_detected": false,
+        "confidence": 0.9,
+        "status": "normal",
+        "fracture_type": null,
+        "location": null,
+        "severity": null,
+        "attention_quality": "bone-focused",
+        "marker_bias_detected": false,
+        "clinical_findings": "The elbow joint demonstrates intact cortical bone continuity with no visible discontinuities or abnormal lucencies.",
+        "recommendation": "No fracture identified; consider clinical correlation if persistent symptoms are present.",
+        "treatment_plan": "Conservative management with rest, ice, and analgesics as needed for symptomatic relief.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

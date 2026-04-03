@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_FOREARM",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\934_image1.png",
+    "true_label": 1,
+    "biomed_prob": 0.9915687441825867,
+    "biomed_pred": "Fracture",
+    "threshold": 0.34,
+    "qwen": {
+        "fracture_detected": true,
+        "confidence": 0.99,
+        "status": "confirmed",
+        "fracture_type": "comminuted fractures with surgical fixation",
+        "location": "mid-shaft of radius and ulna",
+        "severity": "severe",
+        "attention_quality": "bone-focused",
+        "marker_bias_detected": false,
+        "clinical_findings": "Multiple comminuted fractures of both forearm bones with surgical hardware in place and disrupted cortical continuity.",
+        "recommendation": "Correlate with clinical history and obtain orthogonal views for comprehensive fracture assessment.",
+        "treatment_plan": "Surgical fixation with plates and screws has been performed; monitor for healing and hardware complications.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_FINGER",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\469_image1.png",
+    "true_label": 1,
+    "biomed_prob": 0.06254337728023529,
+    "biomed_pred": "No Fracture",
+    "threshold": 0.49,
+    "qwen": {
+        "fracture_detected": false,
+        "confidence": 0.9,
+        "status": "normal",
+        "fracture_type": null,
+        "location": null,
+        "severity": null,
+        "attention_quality": "marker-focused",
+        "marker_bias_detected": true,
+        "clinical_findings": "The phalangeal bones demonstrate normal alignment with continuous cortical margins and no evidence of fracture or bony discontinuity.",
+        "recommendation": "No fracture identified; correlate with clinical examination for soft tissue injury.",
+        "treatment_plan": "Symptomatic management only; no immobilization required.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

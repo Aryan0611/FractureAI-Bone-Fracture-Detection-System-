@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_WRIST",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\2587_image1.png",
+    "true_label": 0,
+    "biomed_prob": 0.25585678219795227,
+    "biomed_pred": "No Fracture",
+    "threshold": 0.34,
+    "qwen": {
+        "fracture_detected": false,
+        "confidence": 0.9,
+        "status": "normal",
+        "fracture_type": null,
+        "location": null,
+        "severity": null,
+        "attention_quality": "marker-focused",
+        "marker_bias_detected": true,
+        "clinical_findings": "The wrist bones including radius, ulna, and carpals demonstrate continuous cortical margins with no evidence of discontinuity or abnormal angulation.",
+        "recommendation": "No fracture identified; clinical correlation with patient history and physical examination is recommended to assess for possible soft tissue injury.",
+        "treatment_plan": "Conservative management with rest, ice, and symptomatic pain control; consider clinical follow-up if symptoms persist.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

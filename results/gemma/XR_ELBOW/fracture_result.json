@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_ELBOW",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\0_image1.png",
+    "true_label": 1,
+    "biomed_prob": 0.8424116373062134,
+    "biomed_pred": "Fracture",
+    "threshold": 0.4,
+    "qwen": {
+        "fracture_detected": true,
+        "confidence": 0.9,
+        "status": "confirmed",
+        "fracture_type": "comminuted fracture",
+        "location": "distal humerus, proximal ulna, and radial head",
+        "severity": "severe",
+        "attention_quality": "bone-focused",
+        "marker_bias_detected": false,
+        "clinical_findings": "The clean enhanced image shows multiple bony fragments and cortical discontinuities involving the distal humerus and proximal ulna consistent with a complex fracture pattern.",
+        "recommendation": "Urgent orthopedic consultation is required for surgical evaluation.",
+        "treatment_plan": "Surgical fixation with possible joint reconstruction to restore alignment and stability.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

@@ -1,0 +1,15 @@
+body_part,true_label,biomed_prob,qwen_detected,qwen_conf,status,attn_quality,marker_bias,correct_biomed,correct_qwen
+XR_ELBOW,1,0.8424116373062134,True,0.9,confirmed,bone-focused,False,1,1
+XR_ELBOW,0,0.21702590584754944,False,0.9,normal,bone-focused,False,1,1
+XR_FINGER,1,0.06254337728023529,False,0.9,normal,marker-focused,True,0,0
+XR_FINGER,0,0.9004349708557129,True,0.7,confirmed,marker-focused,True,0,0
+XR_FOREARM,1,0.9915687441825867,True,0.99,confirmed,bone-focused,False,1,1
+XR_FOREARM,0,0.2533550262451172,False,0.85,normal,marker-focused,True,1,1
+XR_HAND,1,0.9714784026145935,True,0.82,confirmed,marker-focused,True,1,1
+XR_HAND,0,0.40046533942222595,False,0.75,normal,mixed,True,1,1
+XR_HUMERUS,1,0.13001494109630585,False,0.87,normal,marker-focused,True,0,0
+XR_HUMERUS,0,0.6504262089729309,True,0.85,confirmed,bone-focused,False,0,0
+XR_SHOULDER,1,0.9614108800888062,True,0.88,confirmed,mixed,True,1,1
+XR_SHOULDER,0,0.18234139680862427,False,0.95,normal,bone-focused,False,1,1
+XR_WRIST,1,0.8777515888214111,True,0.85,confirmed,marker-focused,True,1,1
+XR_WRIST,0,0.25585678219795227,False,0.9,normal,marker-focused,True,1,1

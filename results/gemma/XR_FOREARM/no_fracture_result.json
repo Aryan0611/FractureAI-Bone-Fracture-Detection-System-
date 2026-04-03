@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_FOREARM",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\926_image1.png",
+    "true_label": 0,
+    "biomed_prob": 0.2533550262451172,
+    "biomed_pred": "No Fracture",
+    "threshold": 0.34,
+    "qwen": {
+        "fracture_detected": false,
+        "confidence": 0.85,
+        "status": "normal",
+        "fracture_type": null,
+        "location": null,
+        "severity": null,
+        "attention_quality": "marker-focused",
+        "marker_bias_detected": true,
+        "clinical_findings": "Radius and ulna exhibit continuous cortical margins without evidence of disruption.",
+        "recommendation": "Recommend clinical correlation to rule out occult fracture if symptoms persist.",
+        "treatment_plan": "Conservative management with symptom monitoring.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

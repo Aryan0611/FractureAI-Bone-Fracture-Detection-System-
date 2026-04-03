@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_SHOULDER",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\1975_image1.png",
+    "true_label": 1,
+    "biomed_prob": 0.9614108800888062,
+    "biomed_pred": "Fracture",
+    "threshold": 0.52,
+    "qwen": {
+        "fracture_detected": true,
+        "confidence": 0.88,
+        "status": "confirmed",
+        "fracture_type": "nondisplaced fracture",
+        "location": "humeral head",
+        "severity": "mild",
+        "attention_quality": "mixed",
+        "marker_bias_detected": true,
+        "clinical_findings": "The clean enhanced image reveals a subtle linear lucency traversing the humeral head cortex without displacement.",
+        "recommendation": "Correlate with clinical symptoms and obtain CT imaging for fracture characterization.",
+        "treatment_plan": "Immobilize with a sling, prescribe analgesics, and schedule orthopedic follow-up in 7 days.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}

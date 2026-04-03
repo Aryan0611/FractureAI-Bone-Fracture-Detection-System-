@@ -1,0 +1,23 @@
+{
+    "body_part": "XR_FINGER",
+    "image_path": "d:\\fracture_detection_project\\data\\clean\\val\\465_image1.png",
+    "true_label": 0,
+    "biomed_prob": 0.9004349708557129,
+    "biomed_pred": "Fracture",
+    "threshold": 0.49,
+    "qwen": {
+        "fracture_detected": true,
+        "confidence": 0.7,
+        "status": "confirmed",
+        "fracture_type": "transverse fracture",
+        "location": "middle phalanx",
+        "severity": "mild",
+        "attention_quality": "marker-focused",
+        "marker_bias_detected": true,
+        "clinical_findings": "The enhanced image shows a clear cortical break in the middle phalanx with no displacement.",
+        "recommendation": "Physical examination for tenderness and range of motion assessment is recommended.",
+        "treatment_plan": "Immobilization with splint and follow-up X-ray in 10-14 days.",
+        "disclaimer": "AI-generated. Radiologist confirmation required.",
+        "model_used": "qwen3-vl:235b-cloud"
+    }
+}
