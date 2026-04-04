@@ -42,15 +42,15 @@ Upload X-Ray → Detect Markers → BiomedCLIP + LoRA → Specialist Head
 - 🏥 **Clinical UI** — dark medical theme with treatment guide and medical chatbot
 
 ---
-<details>
-<summary>📸 View Clinical Analysis Gallery</summary>
+
+<summary>📸 View Clinical Analysis Gallery</summary
 <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/155ada6a-3de4-42db-903c-69c30b00fe0f" />
 <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/44f97c39-ce56-4226-9be0-ec4807713d6d" />
 <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/41f94bf1-29ff-4049-a4c2-4e4efa6a06b4" />
 <img width="600" height="400" alt="Image" src="https://github.com/user-attachments/assets/754cdb9b-51b7-44e7-82e1-c74869a28c3d" />
 
 
-</details>
+
 ## 🏆 Results
 
 <div align="center">
